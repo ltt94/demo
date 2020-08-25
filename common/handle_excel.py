@@ -47,3 +47,4 @@ if __name__ == '__main__':
     # print(cases)
     file_path = datas_path + "\\login_cases.xlsx"
     print(HandleFile(file_path).get_excel_data())
+    print("test test")
