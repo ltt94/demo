@@ -1,0 +1,58 @@
+{
+  "uid" : "8adacc4a4c0203b",
+  "name" : "test_login[case0]",
+  "fullName" : "TestCases.pytest.test_dome.TestLogin#test_login",
+  "historyId" : "1d3dabe9c3da041bee56faac7014a2a4",
+  "time" : {
+    "start" : 1597806262817,
+    "stop" : 1597806262915,
+    "duration" : 98
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0 != 0",
+  "statusTrace" : "self = <TestCases.pytest.test_dome.TestLogin object at 0x000001BAAB296860>\ncase = {'expect_data': '{\"code\": 0,\"msg\": \"success.\",\"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoibW...t', 'request_data': '{\"account\":\"mayc\",\"pwd\":\"afd84507f0394b705272e2434e5ec8f7f46967609ff772cdeba6d5543fff3aea\"}', ...}\n\n    def test_login(self,case):\n        print(\"执行第{}条用例：{}\".format(case[\"id\"], case[\"title\"]))\n        print(\"测试数据为：\",case)\n    \n        respon = send_requests(case[\"method\"], case[\"url\"], data=case[\"request_data\"])\n        print(\"测试结果为：\", respon.json())\n        expect_data = json.loads(case[\"expect_data\"])\n        try:\n>           assert respon.json()[\"code\"]!=expect_data[\"code\"]\nE           assert 0 != 0\n\nTestCases\\pytest\\test_dome.py:30: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCases.pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_dome"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "KST-CSB-lintt"
+  }, {
+    "name" : "thread",
+    "value" : "28032-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.pytest.test_dome"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'id': 1, 'title': '登录成功', 'method': 'post', 'url': '/kvp_mps/v1/login', 'request_data': '{\"account\":\"mayc\",\"pwd\":\"afd84507f0394b705272e2434e5ec8f7f46967609ff772cdeba6d5543fff3aea\"}', 'expect_data': '{\"code\": 0,\"msg\": \"success.\",\"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoibWF5YyIsImJlbG9uZyI6Iuemj-W7uuecgeWOpumXqOW4guaAneaYjuWMuua1i-ivleacuuaehDIiLCJleHAiOjE1OTc3MzQ3NDQsImxldmVsIjozLCJuYW1lIjoi6ams6ZKw5om_In0.SWlMqWhH7DbMBbEUqfIHk5cQfk1V8BxbLCDV4DB6bnI\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8adacc4a4c0203b.json",
+  "parameterValues" : [ "{'id': 1, 'title': '登录成功', 'method': 'post', 'url': '/kvp_mps/v1/login', 'request_data': '{\"account\":\"mayc\",\"pwd\":\"afd84507f0394b705272e2434e5ec8f7f46967609ff772cdeba6d5543fff3aea\"}', 'expect_data': '{\"code\": 0,\"msg\": \"success.\",\"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoibWF5YyIsImJlbG9uZyI6Iuemj-W7uuecgeWOpumXqOW4guaAneaYjuWMuua1i-ivleacuuaehDIiLCJleHAiOjE1OTc3MzQ3NDQsImxldmVsIjozLCJuYW1lIjoi6ams6ZKw5om_In0.SWlMqWhH7DbMBbEUqfIHk5cQfk1V8BxbLCDV4DB6bnI\"}'}" ]
+}

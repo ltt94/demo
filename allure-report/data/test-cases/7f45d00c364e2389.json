@@ -1,0 +1,83 @@
+{
+  "uid" : "7f45d00c364e2389",
+  "name" : "test_login_2",
+  "fullName" : "TestCases.unittest.test_dome.TestLogin#test_login_2",
+  "historyId" : "bea4d1887522f5f157b2662328e5ab29",
+  "time" : {
+    "start" : 1597805452620,
+    "stop" : 1597805452707,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1597805452525,
+      "stop" : 1597805452525,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1597805452891,
+      "stop" : 1597805452891,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCases.unittest"
+  }, {
+    "name" : "suite",
+    "value" : "test_dome"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "KST-CSB-lintt"
+  }, {
+    "name" : "thread",
+    "value" : "26744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.unittest.test_dome"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f45d00c364e2389.json",
+  "parameterValues" : [ ]
+}

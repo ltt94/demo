@@ -1,0 +1,101 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_login_1",
+    "uid" : "ad8883444720c77",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597808583215,
+      "stop" : 1597808583306,
+      "duration" : 91
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_2",
+    "uid" : "5f0028b6cd2b862b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597808583308,
+      "stop" : 1597808583392,
+      "duration" : 84
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_3",
+    "uid" : "8ddc48602f470866",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597808583394,
+      "stop" : 1597808583482,
+      "duration" : 88
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_4",
+    "uid" : "2670bea245e70fb5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597808583484,
+      "stop" : 1597808583569,
+      "duration" : 85
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login[case0]",
+    "uid" : "b8a704fceba4db0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597999412748,
+      "stop" : 1597999412836,
+      "duration" : 88
+    },
+    "flaky" : true,
+    "parameters" : [ "{'id': 1, 'title': '登录成功', 'method': 'post', 'url': '/kvp_mps/v1/login', 'request_data': '{\"account\":\"mayc\",\"pwd\":\"afd84507f0394b705272e2434e5ec8f7f46967609ff772cdeba6d5543fff3aea\"}', 'expect_data': '{\"code\": 0,\"msg\": \"success.\",\"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoibWF5YyIsImJlbG9uZyI6Iuemj-W7uuecgeWOpumXqOW4guaAneaYjuWMuua1i-ivleacuuaehDIiLCJleHAiOjE1OTc3MzQ3NDQsImxldmVsIjozLCJuYW1lIjoi6ams6ZKw5om_In0.SWlMqWhH7DbMBbEUqfIHk5cQfk1V8BxbLCDV4DB6bnI\"}'}" ]
+  }, {
+    "name" : "test_login[case1]",
+    "uid" : "522bba68b7969de2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597999412843,
+      "stop" : 1597999412931,
+      "duration" : 88
+    },
+    "flaky" : true,
+    "parameters" : [ "{'id': 2, 'title': '登录失败-用户名为空', 'method': 'post', 'url': '/kvp_mps/v1/login', 'request_data': '{\"account\":\"\",\"pwd\":\"afd84507f0394b705272e2434e5ec8f7f46967609ff772cdeba6d5543fff3aea\"}', 'expect_data': '{\"code\": 1,\"msg\": \"参数为空，校验失败.\"}'}" ]
+  }, {
+    "name" : "test_login[case2]",
+    "uid" : "d8aed4089cf7d127",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597999412934,
+      "stop" : 1597999413027,
+      "duration" : 93
+    },
+    "flaky" : true,
+    "parameters" : [ "{'id': 3, 'title': '登录失败-密码错误', 'method': 'patch', 'url': '/kvp_mps/v1/login', 'request_data': '{\"account\":\"mayc\",\"pwd\":\"123456\"}', 'expect_data': '{\"code\": 2,\"msg\": \"账号或密码错误.\"}'}" ]
+  }, {
+    "name" : "test_login[case3]",
+    "uid" : "89d5f86b46ac4362",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597999413034,
+      "stop" : 1597999413119,
+      "duration" : 85
+    },
+    "flaky" : true,
+    "parameters" : [ "{'id': 4, 'title': '登录失败-账号未注册', 'method': 'post', 'url': '/kvp_mps/v1/login', 'request_data': '{\"account\":\"lin123456\",\"pwd\":\"afd84507f0394b705272e2434e5ec8f7f46967609ff772cdeba6d5543fff3aea\"}', 'expect_data': '{\"code\": 2,\"msg\": \"账号不存在.\"}'}" ]
+  } ]
+}

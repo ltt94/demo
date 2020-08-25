@@ -1,0 +1,56 @@
+{
+  "uid" : "85b80bec5ed3818d",
+  "name" : "test_login[case1]",
+  "fullName" : "TestCases.pytest.test_dome.TestLogin#test_login",
+  "historyId" : "20b7d6c660b11e5cfe7636ba035bdb6d",
+  "time" : {
+    "start" : 1597998503725,
+    "stop" : 1597998503812,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCases.pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_dome"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "KST-CSB-lintt"
+  }, {
+    "name" : "thread",
+    "value" : "40412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.pytest.test_dome"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'id': 2, 'title': '登录失败-用户名为空', 'method': 'post', 'url': '/kvp_mps/v1/login', 'request_data': '{\"account\":\"\",\"pwd\":\"afd84507f0394b705272e2434e5ec8f7f46967609ff772cdeba6d5543fff3aea\"}', 'expect_data': '{\"code\": 1,\"msg\": \"参数为空，校验失败.\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85b80bec5ed3818d.json",
+  "parameterValues" : [ "{'id': 2, 'title': '登录失败-用户名为空', 'method': 'post', 'url': '/kvp_mps/v1/login', 'request_data': '{\"account\":\"\",\"pwd\":\"afd84507f0394b705272e2434e5ec8f7f46967609ff772cdeba6d5543fff3aea\"}', 'expect_data': '{\"code\": 1,\"msg\": \"参数为空，校验失败.\"}'}" ]
+}

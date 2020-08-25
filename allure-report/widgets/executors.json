@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://127.0.0.1:8080/",
+  "buildOrder" : 12,
+  "buildName" : "pytest allure #12",
+  "buildUrl" : "http://127.0.0.1:8080/job/pytest%20allure/12/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://127.0.0.1:8080/job/pytest%20allure/12/allure"
+} ]
